@@ -1,27 +1,79 @@
-PasteApp
+# PasteApp
 
-🚀 About the Project
+PasteApp is a simple web application for creating, viewing, editing, and managing text pastes. Built with React, Redux Toolkit, Vite, and TailwindCSS.
 
-PasteApp is a simple and efficient web-based pastebin application that allows users to store and share text snippets easily. 
+## Features
 
+- Create new pastes with a title and content
+- Edit and update existing pastes
+- View individual pastes
+- Delete and copy pastes
+- Search pastes by title
+- Share pastes (UI only)
+- Persistent storage using localStorage
+- Responsive UI with TailwindCSS
 
-🎯 Installation & Setup
+## Tech Stack
 
-Clone the repository:
+- [React](https://react.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [React Hot Toast](https://react-hot-toast.com/)
 
-git clone https://github.com/yourusername/pasteapp.git
+## Getting Started
 
-Navigate to the project directory:
+### Prerequisites
 
-cd pasteapp
+- Node.js (v18 or higher recommended)
+- npm
 
-Install dependencies:
+### Installation
 
-npm install
+1. Clone the repository:
+   ```sh
+   git clone <your-repo-url>
+   cd pasteapp
+   ```
 
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-Run the development server:
+### Running the App
 
-npm start
+Start the development server:
+```sh
+npm run dev
+```
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-Open the browser and visit http://localhost:3000
+### Building for Production
+
+```sh
+npm run build
+```
+
+### Linting
+
+```sh
+npm run lint
+```
+
+## Project Structure
+
+```
+pasteapp/
+  ├── public/
+  ├── src/
+  │   ├── assets/
+  │   ├── components/
+  │   ├── redux/
+  │   ├── App.jsx
+  │   ├── main.jsx
+  │   └── store.js
+  ├── index.html
+  ├── package.json
+  └── vite.config.js
