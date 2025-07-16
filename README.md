@@ -19,10 +19,6 @@ Install dependencies:
 
 npm install
 
-Set up environment variables (.env file):
-
-MONGO_URI=your_mongodb_uri
-FIREBASE_API_KEY=your_firebase_api_key
 
 Run the development server:
 
